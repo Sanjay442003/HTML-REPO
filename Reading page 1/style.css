@@ -4,22 +4,32 @@
     box-sizing: 0;
 }
 
-.container {
+body {
     display: grid;
     grid-template-areas:
-    "header" "header";
-}
-
-header {}
-
-footer {
-    text-align: center;
-}
-
-body {
+        "header"
+        "contentbar"
+        "footer";
+    grid-template-rows: 50px 1fr 50px;
     height: 100vh;
 }
 
+.header {
+    grid-area: header;
+}
+
 .contentbar {
+    grid-area: contentbar;
     display: flex;
+}
+
+.sidebar {
+    width: 300px;
+}
+
+.content {}
+
+.footer {
+    grid-area: footer;
+    text-align: center;
 }
