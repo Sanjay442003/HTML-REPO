@@ -337,6 +337,7 @@ header div {
 }
 
 .message {
+    text
     border-radius: 5px;
     background-color: #ececec;
     border: none;
@@ -389,7 +390,6 @@ footer {
         grid-template-columns: 1fr;
         text-align: center;
     }
-
 
     .box51 {
         grid-template-columns: 1fr;
