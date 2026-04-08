@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: rgb(175, 175, 175);
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(175, 175, 175);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.inbox {
+    display: flex;
+    background-color: rgb(26, 2, 2);
+    border-radius: 50px;
+    height: 94vh;
+    justify-content: center;
+    width: 60%;
+}
+
+.ininbox1 {
+    padding: 50px;
+    border-radius: 1px 1px 50px 50px;
+    text-align: center;
+    width: 50%;
+}
+
+.title1 {
+    color: #8f8f8f;
+    font-size: small;
+    margin-bottom: 100px;
+}
+
+.content1 {
+    line-height: 40px;
+    font-size: 50px;
+    color: aliceblue;
+    margin-bottom: 40px;
+}
+
+.ininbox2 {
+    text-align: center;
+    padding: 40px;
+    border-radius: 50px;
+    background-color: white;
+    width: 50%;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.Payoneer {
+    font-weight: bold;
+}
+
+.signup {}
+
+.signin {
+    margin-left: 20px;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.Email {
+    padding: 10px;
+    border-radius: 20px;
+    width: 85%;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.password {
+    padding: 10px;
+    border-radius: 20px;
+    width: 85%;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.forgotpassword {
+    color: red;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    width: 90%;
+    border-radius: 20px;
+    height: 35px;
+    margin-bottom: 200px;
+    background-color: orangered;
+}
+
+.lowcontent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.low1 {
+    display: flex;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.low2 {
+    font-size: 12px;
+    gap: 20px;
+    display: flex;
+}

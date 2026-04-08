@@ -150,7 +150,7 @@ header {
 
 }
 
-.link3{
+.link3 {
     color: aliceblue;
     margin-left: 3px;
     text-decoration: 1px solid aliceblue underline;
@@ -160,13 +160,13 @@ header {
     text-decoration: 1px solid #ff9500 underline;
 }
 
-.box3{
+.box3 {
     display: flex;
     justify-content: center;
     gap: 40px;
 }
 
-.box31{
+.box31 {
     width: 155px;
     height: 155px;
     border-radius: 50%;
@@ -181,17 +181,17 @@ header {
     transition: margin-top 0.5s, outline 0.2s;
 }
 
-.box31:hover{
+.box31:hover {
     margin-top: 75px;
     outline: 3px solid orangered;
     outline-offset: -1p;
 }
 
-.box4{
+.box4 {
     margin-top: 200px;
 }
 
-.box41{
+.box41 {
     color: aliceblue;
     display: flex;
     flex-direction: column;
@@ -199,13 +199,13 @@ header {
     align-items: center;
 }
 
-.title41{
+.title41 {
     font-weight: bold;
     font-size: 60px;
     margin-bottom: 20px;
 }
 
-.content41{
+.content41 {
     width: 700px;
     font-size: 20px;
     line-height: 30px;
@@ -214,13 +214,13 @@ header {
     margin-bottom: 30px;
 }
 
-.box42{
+.box42 {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.inbox1{
+.inbox1 {
     width: 270px;
     height: 360px;
     border-radius: 10px;
@@ -229,52 +229,179 @@ header {
     text-align: center;
 }
 
-.inboximg{
+.inboximg {
     border-radius: 10px 10px 1px 1px;
     width: 100%;
     height: 230px;
 }
 
-.ininbox{
+.ininbox {
     transition: margin-top 0.5s;
     padding: 15px
 }
 
-.ininbox:hover{
+.ininbox:hover {
     margin-top: -10px;
 }
 
-.ininbox1{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.ininbox1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 25px;
 }
 
-.ininbox2{
+.ininbox2 {
     color: #5c5c5c;
 }
 
-.box5{}
+.box5 {
+    padding-bottom: 100px;
+}
 
-.title5{
+.title5 {
     margin-top: 180px;
     color: aliceblue;
-    font-size: 58px;
+    font-size: 64px;
     text-align: center;
     font-weight: bold;
+    margin-bottom: 100px;
 }
 
-.box51{
+.box51 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.inbox51 {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 5fr;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 115px;
+    width: 1170px;
 }
 
-.inbox51{
-    width: 100px;
-    height: 100px;
-    background-color: aliceblue;
+.inbox151 {
+    width: 120px;
+    height: 120px;
+    outline: 15px solid orangered;
+    outline-offset: -15px;
+    border-radius: 50%;
+}
+
+.textbox1 {
+    margin-left: -80px;
+}
+
+.text51 {
+    color: aliceblue;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.text151 {
+    text-transform: uppercase;
+    color: #ff5e00;
+    font-size: 18px;
+}
+
+.box6 {
+    background-image: url("WhatsApp Image 2026-04-01 at 11.41.53 AM.jpeg");
+    background-size: cover;
+    height: 320px;
+    
+}
+
+.box61{
+    display: flex;
+    justify-content: center;
+    height: 220px;
+    align-items: center;
+}
+
+.inbox6{
+    display: flex;
+    gap: 20px;
+    color: rgb(137, 137, 137);
+}
+
+.inbox61 {
+}
+
+.inbox62{
+}
+
+.inboxnumber{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+.inboxletter{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.link4box{
+    color: aliceblue;
+    text-align: center;
+}
+
+.link4{
+    color: aliceblue;
+    margin-left: 3px;
+    text-decoration: 1px solid aliceblue underline;
+}
+
+.link4:hover{
+    text-decoration: 1px solid #ff9500 underline;
+}
+
+.box7{
+    background-color: rgb(32, 32, 32);
+}
+
+.box71{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box7img{
+    height: 600px;
+    width: 800px;
+    margin-left: -100px;
+}
+
+.box7content{
+    color: aliceblue;
+    height: 500px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.content1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.link5box{
+    margin-top: 40px;
+    color: aliceblue;
+}
+
+.link5{
+    color: aliceblue;
+    margin-left: 3px;
+    text-decoration: 1px solid aliceblue underline;
+}
+
+.link5:hover{
+    color: #ccc;
+}
+
+.content2{
+    margin-top: 40px;
 }
 
 footer {}
