@@ -47,6 +47,7 @@ body {
 }
 
 .ininbox2 {
+    position: relative;
     text-align: center;
     padding: 40px;
     border-radius: 50px;
@@ -62,9 +63,14 @@ body {
 
 .Payoneer {
     font-weight: bold;
+    font-size: 20px;
 }
 
-.signup {}
+.signup {
+    color: #aeaeae;
+    font-size: 10px;
+    font-weight: bold;
+}
 
 .signin {
     margin-left: 20px;
@@ -74,6 +80,7 @@ body {
 }
 
 .Email {
+    border: 1px solid #ccc;
     padding: 10px;
     border-radius: 20px;
     width: 85%;
@@ -82,6 +89,7 @@ body {
 }
 
 .password {
+    border: 1px solid #ccc;
     padding: 10px;
     border-radius: 20px;
     width: 85%;
@@ -98,6 +106,7 @@ body {
 }
 
 .button {
+    color: aliceblue;
     padding: 10px;
     border: none;
     width: 90%;
@@ -110,6 +119,9 @@ body {
 .lowcontent {
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    width: 80%;
+    bottom: 10px;
 }
 
 .low1 {
